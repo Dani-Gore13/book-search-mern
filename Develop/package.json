@@ -1,7 +1,7 @@
 {
   "name": "googlebooks-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "A book search engine application built with the MERN stack and GraphQL API.",
   "main": "server/server.js",
   "scripts": {
     "start": "node server/server.js",
@@ -9,8 +9,15 @@
     "install": "cd server && npm i && cd ../client && npm i",
     "build": "cd client && npm run build"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [ "mern",
+  "graphql",
+  "React",
+  "book",
+  "search",
+  "Node.js",
+  "Express.js",
+  "MongoDB"],
+  "author": "Daniella Gore",
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^5.1.0"
